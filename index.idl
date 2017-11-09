@@ -1,0 +1,45 @@
+[meta title:"Idyll Walkthrough" description:"Short description of your project" /]
+
+[Header
+  title:"Idyll Walkthrough"
+  subtitle:"University of Washington CSE 442 Tutorial"
+  author:"Matthew Conlen"
+  authorLink:"https://twitter.com/mathisonian" /]
+
+
+
+# A custom D3 component
+
+[data name:"myData" source:"data.json" /]
+
+
+[var name:"x" value:"sepalLength"  /]
+[var name:"y" value:"petalLength"  /]
+[var name:"color" value:"steelblue"  /]
+
+
+X: [Select value:x options:`["sepalLength", "sepalWidth"]` /]
+Y: [Select value:y options:`["petalLength", "petalWidth"]` /]
+
+Fill Color: [TextInput value:color /]
+
+
+[MyD3Component data:myData x:x y:y color:color  /]
+
+
+# A custom React component
+
+[var name:"columns" value:8 /]
+[var name:"totalElements" value:"50" /]
+
+
+Columns:
+[br/]
+[Range value:columns min:2 max:15 /]
+
+
+Total Elements:
+[br/]
+[Range value:totalElements min:2 max:100 /]
+
+[CustomComponent columns:columns totalElements:totalElements /]
