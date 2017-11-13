@@ -63,5 +63,6 @@ If you can't find answers there, post on canvas, come to office hours, or post i
 
 ### Notes
 
+* You may want to add the generated `.idyll` folder to your `gitignore`. 
 * We recommend that you don't use the `Feature` component for this project, as there are some bugs with that. If you really want to use it, talk to [Matt](https://github.com/mathisonian)
 
