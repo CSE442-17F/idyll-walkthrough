@@ -65,6 +65,7 @@ You can also feel free to open issues on this repository or on [Idyll's repo](ht
 
 ### Notes
 
+* If you are running Windows 10, we recommend using the Linux subsystem for Windows.
 * You may want to add the generated `.idyll` folder to your `gitignore`. 
 * We recommend that you don't use the `Feature` component for this project, as there are some bugs with that. If you really want to use it, talk to [Matt](https://github.com/mathisonian)
 
