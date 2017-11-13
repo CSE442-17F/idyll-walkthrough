@@ -61,6 +61,8 @@ First check the docs - http://idyll-lang.org/
 
 If you can't find answers there, post on canvas, come to office hours, or post in the idyll chatroom: https://gitter.im/idyll-lang/Lobby
 
+You can also feel free to open issues on this repository or on [Idyll's repo](https://github.com/idyll-lang/idyll).
+
 ### Notes
 
 * You may want to add the generated `.idyll` folder to your `gitignore`. 
