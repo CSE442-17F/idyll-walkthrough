@@ -72,4 +72,10 @@ You can also feel free to open issues on this repository or on [Idyll's repo](ht
   * Remove the node_modules folder and retry the install completely. To do this:
     * delete the “node_modules” folder that is located in the root of the idyll project folder, rerun the install command
 
+### Windows Issues
 
+I’ve just released a new version (v2.0.7) that fixes issues when running in the default windows prompt, outside of the linux subsystem. To upgrade, navigate to the root folder of your idyll project, and run:
+
+`npm install --save idyll@latest`
+
+Note, if this install fails, you may need to clear the cache: `npm cache clean` and run it again.
