@@ -66,7 +66,7 @@ You can also feel free to open issues on this repository or on [Idyll's repo](ht
 ### Notes
 
 * You may want to add the generated `.idyll` folder to your `gitignore`. 
-* We recommend that you don't use the `Feature` component for this project, as there are some bugs with that. If you really want to use it, talk to [Matt](https://github.com/mathisonian)
+* We recommend that you don't use the `Feature` component for this project, as there are some bugs with that. If you really want to use it, email Matt, mconlen@cs.washington.edu
 * If you run into "UNKNOWN" or other similarly vague error messages when running `npm install` there are two things to try:
   * Reset npm’s cache: `npm cache clean`. Then rerun the install command
   * Remove the node_modules folder and retry the install completely. To do this:
