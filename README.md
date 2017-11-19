@@ -7,7 +7,7 @@ View live version: https://cse442-17f.github.io/idyll-walkthrough/
 
 ### Dependencies
 
-To use Idyll you'll need to have a recent version of `node.js` installed. This can be installed either directly from https://nodejs.org/en/, or using a node version manager, https://github.com/creationix/nvm.
+To use Idyll you'll need to have a recent version of `node.js` installed (version 6 or later). This can be installed either directly from https://nodejs.org/en/, or using a node version manager, https://github.com/creationix/nvm.
 
 ### Installation
 
@@ -65,6 +65,7 @@ You can also feel free to open issues on this repository or on [Idyll's repo](ht
 
 ### Notes
 
+* Make sure you have a recent version of node - v6 or greater will work, earlier versions may not.
 * You may want to add the generated `.idyll` folder to your `gitignore`. 
 * We recommend that you don't use the `Feature` component for this project, as there are some bugs with that. If you really want to use it, email Matt, mconlen@cs.washington.edu
 * If you run into "UNKNOWN" or other similarly vague error messages when running `npm install` there are two things to try:
